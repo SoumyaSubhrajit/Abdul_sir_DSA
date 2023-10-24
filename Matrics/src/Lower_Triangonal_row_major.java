@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Lower_Triangonal_row_major {
     static int r;
     static int c;
+    // Creating a 2D matrix.
   static int[][] createArray(){
       System.out.println("Enter the size of an row!");
       Scanner sc = new Scanner(System.in);
@@ -17,6 +18,8 @@ public class Lower_Triangonal_row_major {
       }
       return  arr;
   }
+
+  // Displaying the 2D matrix.
   static void display(int[][] arr){
       for (int i = 0; i < r ; i++) {
           for (int j = 0; j < c; j++) {
