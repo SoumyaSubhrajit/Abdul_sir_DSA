@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA_AB_Sir.iml" filepath="$PROJECT_DIR$/.idea/DSA_AB_Sir.iml" />
       <module fileurl="file://$PROJECT_DIR$/Matrics/Matrics.iml" filepath="$PROJECT_DIR$/Matrics/Matrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sparse_Matrix/Sparse_Matrix.iml" filepath="$PROJECT_DIR$/Sparse_Matrix/Sparse_Matrix.iml" />
     </modules>
   </component>
 </project>
