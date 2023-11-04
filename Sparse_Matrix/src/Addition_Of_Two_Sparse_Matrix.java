@@ -91,7 +91,7 @@ public class Addition_Of_Two_Sparse_Matrix {
         int[] nonZeroValue1 = savingNonZeroNumbers(mat1, value1, row, col);
         int[] nonZeroValue2 = savingNonZeroNumbers(mat2, value2, row, col);
 
-        // Taking the final array to store the adding data of the two matrixs.
+        // Taking the final array to store the adding data of the two matrixs..
         int[] res1 = new int[nonZeroMat1+nonZeroMat2];
 
          int res2[] = addingSparseMat(nonZeroValue1, nonZeroValue2,res1, nonZeroMat1, nonZeroMat2);
