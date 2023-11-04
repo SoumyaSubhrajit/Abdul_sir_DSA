@@ -96,9 +96,10 @@ public class Addition_Of_Two_Sparse_Matrix {
 
          int res2[] = addingSparseMat(nonZeroValue1, nonZeroValue2,res1, nonZeroMat1, nonZeroMat2);
 
-         for(int ele: res2)
-         {
-             System.out.print(ele+" ");
+         for(int ele: res2) {
+             if (ele != 0) {
+                 System.out.print(ele + " ");
+             }
          }
 
     }
